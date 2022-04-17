@@ -1,0 +1,57 @@
+//Fonts
+/* 1. Fonts */
+@import "custom/fonts/fonts";
+
+//Core files
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+@import 'variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+
+@import "custom/structure/general";
+@import "custom/structure/left-menu";
+@import "custom/structure/topbar";
+@import "custom/structure/page-head";
+@import "custom/structure/footer";
+@import "custom/structure/horizontal-nav";
+@import "custom/structure/right-sidebar";
+@import "custom/structure/layouts";
+
+@import "custom/components/helper";
+@import "custom/components/social";
+@import "custom/components/widgets";
+@import "custom/components/custom-checkbox";
+@import "custom/components/custom-radio";
+@import "custom/components/print";
+@import "custom/components/preloader";
+
+@import 'custom/plugins/slimscroll';
+@import 'custom/plugins/apexcharts';
+@import 'custom/plugins/calendar';
+@import 'custom/plugins/nice-select';
+@import 'custom/plugins/multiple-select';
+@import 'custom/plugins/flatpickr';
+@import 'custom/plugins/bootstrap-touchspin';
+@import 'custom/plugins/parsley';
+@import 'custom/plugins/form-wizard';
+@import 'custom/plugins/dropzone';
+@import 'custom/plugins/datatable';
+@import 'custom/plugins/table-list-js';
+@import 'custom/plugins/kanban';
+@import 'custom/plugins/metismenu';
+@import 'custom/plugins/npprogress';
+@import 'custom/plugins/editor';
+
+@import "custom/pages/components-demo";
+@import "custom/pages/tasks";
+@import "custom/pages/email";
+@import "custom/pages/timeline";
+@import "custom/pages/extra-pages";
+@import "custom/pages/authentication";
+
+@import 'icons';
